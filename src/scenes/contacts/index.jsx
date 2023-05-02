@@ -90,7 +90,7 @@ const Contacts = () => {
                         backgroundColor : colors.BlueAccent[700]
                      },
                      "& .MuiDataGrid-toolbarContainer .MuiButton-text" :{
-                        color: '${colors.grey[100]}!important',
+                        color: `${colors.grey[100]}!important`,
                      },
                 }} >
                 <DataGrid rows={mockDataContacts} 

@@ -101,7 +101,7 @@ const Team = () => {
                         backgroundColor : colors.BlueAccent[700]
                      },
                 }} >
-                <DataGrid rows={mockDataTeam} columns={Columns} />
+                <DataGrid rows={mockDataTeam} columns={columns} />
               </Box>
                  </Box>
 

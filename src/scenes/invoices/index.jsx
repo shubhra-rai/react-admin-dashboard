@@ -35,7 +35,7 @@ const Invoices = () => {
         
             field : "cost",
             headerName :"Cost",
-            flex :1
+            flex :1,
             renderCell :(params) => (
                 <Typography color={colors.GreenAccent[500]}>
                     ${params.row.cost}
@@ -79,7 +79,7 @@ const Invoices = () => {
                         backgroundColor : colors.BlueAccent[700]
                      },
                      "& .MuiCheckbox-root":{
-                        color: '${colors.GreenAccent[200]} !important'
+                        color: `${colors.GreenAccent[200]} !important`
                      },
                 }} >
                 <DataGrid  checkboxSelection rows={mockDataInvoices} 
